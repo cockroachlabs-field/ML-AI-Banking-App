@@ -23,8 +23,35 @@ Before you begin, ensure you have the following installed:
 - LangChain and SQLToolkit
 
 ### Installation
-1. **Clone the repository**
+**Clone the repository**
 ```bash
-git clone https://github.com/yourrepository/BankOfRoachathonApp.git
-cd BankOfRoachathonApp
+git clone https://github.com/david7joy/BankoAssistant.git
+cd BankoAssistant
+```
 
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Configure API_Key if using OpenAI or any other non local LLM
+```bash
+add key to config.py
+```
+
+### Run the application
+```bash
+flask run
+```
+
+### Usage
+After launching the app, you can:
+
+- Access the web interface at http://localhost:5000 to manage your banking needs.
+- click on the `bankoassistant` on the sidebar for assistant page
+- Use the REST API for programmatic access to account and transaction functionalities.
+- Note : `some artificats are static - due to MVP`
+
+
+
+Project Link: https://github.com/yourrepository/BankOfRoachathonApp
