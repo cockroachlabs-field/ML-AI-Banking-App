@@ -18,7 +18,7 @@ distro==1.9.0
 docutils @ file:///private/tmp/docutils-20231211-36728-9mhbst/docutils-0.20.1
 fastapi==0.109.2
 ffmpy==0.3.1
-filelock==3.13.1
+filelock==4.2.1
 Flask==3.0.2
 fonttools==4.48.1
 frozenlist==1.4.1
